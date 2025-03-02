@@ -1,0 +1,64 @@
+# General OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+nohup.out
+*.pid
+*.seed
+hs_err_pid*
+
+# IDEs and Editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Build directories for Gradle and Maven
+*/target/
+*/build/
+.gradle/
+!*/gradle/wrapper/gradle-wrapper.jar
+
+# Dependencies (Maven & Gradle)
+**/.mvn/
+**/.gradle/
+!**/gradle-wrapper.properties
+!**/gradle-wrapper.jar
+
+# Spring Boot configuration files (ignore sensitive info)
+**/application-*.yml
+**/application-*.properties
+**/.env
+**/secrets.env
+
+# Node and Frontend (if using React/Vue/Angular in Spring Boot)
+**/node_modules/
+**/dist/
+**/.npm/
+npm-debug.log
+yarn-error.log
+
+# Database and Security
+*.key
+*.pem
+*.crt
+*.db
+*.sqlite
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Misc
+*.cache
+*.swp
+*.swo
+*.swn

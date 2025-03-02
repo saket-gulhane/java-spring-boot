@@ -1,0 +1,4 @@
+package com.learnSpring.rest.rest;
+
+public record Greeting() {
+}
