@@ -23,9 +23,9 @@ public class RestApplication {
 
 			String[] beans = arg.getBeanDefinitionNames();
 			Arrays.sort(beans);
-			for(String bean : beans){
-				System.out.println(bean);
-			}
+//			for(String bean : beans){
+//				System.out.println(bean);
+//			}
 		};
 	}
 
